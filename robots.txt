@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow:
+Disallow: /send-mail.php
+
+Sitemap: https://dudhaneshrey.cf/sitemap.xml

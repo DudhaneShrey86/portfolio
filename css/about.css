@@ -1,0 +1,16 @@
+.customh42{
+  margin-top: -10px;
+  margin-bottom: 25px;
+}
+.language{
+  font-size: 0.9em;
+}
+.language-name{
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1024px){
+  #introdiv{
+    text-align: center;
+  }
+}

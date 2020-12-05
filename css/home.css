@@ -1,0 +1,70 @@
+.grid-main{
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#header-content{
+  min-height: 80vh !important;
+}
+#skills-maindiv{
+  grid-column-gap: 5px;
+}
+#works-maindiv{
+  grid-gap: 30px;
+}
+
+.skills-heading{
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+.work-divs{
+  border-radius: 10px;
+  background: var(--secondary-color);
+  /* min-height: 200px; */
+  padding: 10px 20px;
+  color: var(--white-color);
+  max-width: 300px;
+  margin: 0 auto;
+  background-position: center;
+  background-size: 100%;
+  box-shadow: 0px 2px 5px var(--light-shadow);
+  transition: all 0.2s ease;
+}
+/* e33232
+ebd457 */
+.work-divs:first-of-type{
+  background-image: url('.././images/avidgames2-min.png');
+}
+.work-divs:nth-child(2){
+  background-image: url('.././images/allogsec2-min.png');
+}
+.work-divs:last-of-type{
+  background-image: url('.././images/insurance-solutions2-min.png');
+}
+.work-content{
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+.work-divs:hover{
+  background: var(--secondary-color);
+  /* box-shadow: 0px 1px 5px var(--dark-shadow); */
+}
+.work-divs:hover .work-content{
+  opacity: 1;
+}
+.link{
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+.link.active:hover{
+  border-color: var(--white-color);
+}
+
+@media screen and (min-width: 1024px){
+  .grid-main{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

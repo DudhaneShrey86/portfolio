@@ -1,0 +1,292 @@
+.small-margin-bottom{
+  margin-bottom: 10px;
+}
+
+:root{
+  scroll-behavior: smooth;
+  --primary-color: #2343f7;
+  --secondary-color: #141c3a;
+  --white-color: #fff;
+  --shadow: #9e9e9e;
+  --light-shadow: #e6e6e6;
+  --colored-text: #acbaf2;
+  --dark-shadow: #1d35b8;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.5em;
+  font-family: 'Nunito', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+}
+
+/* header */
+.logodiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  width: 80px;
+  padding: 10px;
+}
+.logo img, .logo2 img{
+  display: block;
+  width: 100%;
+}
+.logo2{
+  width: 120px;
+  padding: 10px;
+}
+nav{
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 120px auto;
+  align-items: center;
+}
+#navul, #ham-menu{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navul{
+  text-align: right;
+  display: none;
+}
+#ham-menu{
+  padding: 20px 0;
+  margin: 0 -16px;
+  box-shadow: -2px 3px 3px var(--light-shadow);
+  display: none;
+}
+#ham-menu.active{
+  display: block;
+}
+#navul li{
+  display: inline-block;
+  padding: 0;
+}
+#ham-menu li{
+  padding: 2px;
+}
+#navul li a, #ham-menu li a{
+  display: block;
+  padding: 10px 15px;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+#navul li a:hover, #ham-menu li a:hover{
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+#ham-icon{
+  display: block;
+  text-align: right;
+}
+#ham-icon i{
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.padding-div{
+  padding: 10px 15px;
+}
+
+.card, .card2, .white-card{
+  padding: 40px 0;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  color: var(--white-color);
+}
+.card{
+  background: var(--primary-color);
+  box-shadow: 0px 2px 5px var(--shadow);
+}
+.white-card{
+  color: black;
+  /* padding-bottom: 30px; */
+}
+.card2{
+  margin-top: -120px;
+  background: var(--secondary-color);
+  box-shadow: 0px 2px 5px var(--dark-shadow);
+}
+.card-content{
+  width: 80%;
+}
+.white-card .card-content{
+  width: 90%;
+}
+
+.padding-card{
+  margin: 0 auto;
+}
+
+.links{
+  display: inline-flex;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  transition: all 0.2s ease;
+}
+.links i{
+  margin-left: 10px;
+}
+.links.white{
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+.links.colored, .links.colored2{
+  border-color: var(--white-color);
+  color: var(--white-color);
+}
+.links.white:hover{
+  background: var(--secondary-color);
+  color: var(--white-color);
+}
+.links.colored:hover{
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+.links.colored2:hover{
+  background: var(--white-color);
+  color: var(--secondary-color);
+}
+
+.blank-div{
+  margin: 20px 0;
+}
+
+.customh4, .customh42{
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+footer{
+  margin-top:250px;
+  background: var(--primary-color);
+}
+
+#footer-content{
+  color: var(--colored-text);
+}
+
+#social-links-div{
+  display: flex;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 0 60px 0;
+}
+.social-links{
+  padding: 10px;
+  border-radius: 7px;
+  margin: 0 10px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #8494f0;
+  transition: all 0.2s ease;
+}
+.social-links:hover{
+  background: var(--white-color);
+  color: var(--primary-color);
+  border-color: var(--white-color);
+}
+
+#tagline{
+  font-size: 1.05em;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+#copyright{
+  font-size: 0.85em;
+}
+
+/* media queries */
+
+@media screen and (max-width: 599px) {
+
+}
+@media screen and (min-width: 600px) {
+
+}
+
+@media screen and (min-width: 769px) {
+  .container{
+    padding: 14px;
+  }
+  .links{
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .logo{
+    width: 100px;
+  }
+  .logo2{
+    width: 150px;
+  }
+  .container{
+    max-width: 960px;
+  }
+  .card-content{
+    width: 60%;
+  }
+  .white-card .card-content{
+    width: 60%;
+  }
+  nav{
+    padding-top: 30px;
+  }
+  #navul{
+    display: block;
+  }
+  #ham-icon{
+    display: none;
+  }
+  #ham-menu.active{
+    display: none;
+  }
+  .blank-div{
+    margin: 40px 0;
+  }
+  .social-links{
+    margin: 0 15px;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .container{
+    max-width: 1152px;
+  }
+}
+@media screen and (min-width: 1408px) {
+  .container{
+    max-width: 1334px;
+  }
+}
