@@ -5,5 +5,3 @@ function menu(){
   hamicon.classList.toggle('fa-times');
   hammenu.classList.toggle('active');
 }
-
-// window.alert("The site is under development!");

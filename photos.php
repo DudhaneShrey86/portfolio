@@ -2,10 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="I am Shreyanshu Dudhane - Full Stack Web Developer">
-    <meta name="keywords" content="shreyanshu, dudhane, web, developer, full stack, freelance, dudhaneshrey, dudhaneshrey86, website, portfolio,">
+    <meta name="description" content="Image gallery of my recent projects and startups">
+    <meta name="keywords" content="recent, works, images, screenshots, proof, visual, projects, shreyanshu, dudhane, dudhaneshrey86">
     <meta name="author" content="Shreyanshu Dudhane">
-    <title>Shreyanshu Dudhane - Full Stack Web Developer</title>
+    <title>Image Gallery - Recent Projects</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- canonical -->
     <link rel="canonical" href="">

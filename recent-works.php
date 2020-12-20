@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/recent.css">
+    <link rel="stylesheet" href="./css/grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
   </head>
@@ -44,13 +45,74 @@
     </header>
     <main>
       <section id="recent-works" class="container">
-
+        <h3>Recent Works</h3>
+        <p></p>
+        <div class="grid-main">
+          <div class="works-div child-items">
+            <div class="image-div">
+              <img src="./images/allogsec2-min.png" alt="">
+            </div>
+            <div class="content-div">
+              <h4 class="customh4">Trust Management System</h4>
+              <div class="work-content">
+                <p>
+                  Trust Management System is a Laravel web-application built for trust organizations to help them in their daily tasks.<br>
+                  The system provides a portal for needy individuals to register and make applications for funds.
+                  On the admin side, the system includes a variety of features from managing applications and applicants to managing capital, expenses and disbursements.
+                </p>
+              </div>
+              <div class="">
+                <a href="#" class="links white disabled">Almost Deployed<i class="far fa-clock"></i></a>
+                <a href="" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="works-div child-items">
+            <div class="image-div">
+              <img src="./images/insurance-solutions2-min.png" alt="">
+            </div>
+            <div class="content-div">
+              <h4 class="customh4">Insurance Solutions</h4>
+              <div class="work-content">
+                <p>
+                  Insurance Solutions is a policy agency based in Maharashtra. We are creating an online platform for its clients and employees.<br>
+                  The platform provides a variety of functionalities to the users like browsing through products, getting quotations, comparing products, managing policies, and on the admin's side -
+                  managing products, user data, etc.
+                </p>
+              </div>
+              <div class="">
+                <a href="#" class="links white disabled">In Development<i class="far fa-clock"></i></a>
+                <a href="" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <div class="blank-div">
 
       </div>
       <section id="startups" class="container">
-
+        <h3>Startups</h3>
+        <p>I like the idea of building something for the people, this is just the beginning!</p>
+        <div class="grid-main">
+          <div class="works-div child-items">
+            <div class="image-div">
+              <img src="./images/avidgames2-min.png" alt="">
+            </div>
+            <div class="content-div">
+              <h4 class="customh4">AvidGames</h4>
+              <div class="work-content">
+                <p>
+                  AvidGames is a games website built for the people to help them have some fun time playing and sharing games during this pandemic.
+                </p>
+              </div>
+              <div class="">
+                <a href="https://avidgames.site/" target="_blank" class="links white">Visit Site<i class="fas fa-arrow-right"></i></a>
+                <a href="" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <div class="blank-div">
 
