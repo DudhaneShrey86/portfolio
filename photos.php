@@ -2,17 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Image gallery of my recent projects and startups">
-    <meta name="keywords" content="recent, works, images, screenshots, proof, visual, projects, shreyanshu, dudhane, dudhaneshrey86">
+    <meta name="description" content="Images of my recent projects">
+    <meta name="keywords" content="images, photos, visual, recent, works, projects, experience, shreyanshu, dudhane, dudhaneshrey86">
     <meta name="author" content="Shreyanshu Dudhane">
-    <title>Image Gallery - Recent Projects</title>
+    <title>Image Gallery - Recent Works</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- canonical -->
-    <link rel="canonical" href="">
     <link rel="icon" type="image/png" href="./favicon.png">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/photos.css">
     <link rel="stylesheet" href="./css/grid.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -38,98 +37,67 @@
         </ul>
         <div id="header-content">
           <div id="introdiv">
-            <h1>Hello, I am Shreyanshu</h1>
-            <h2>Full Stack Web Developer</h2>
-          </div>
-          <div id="avataardiv">
-            <img src="./images/me.svg" id="avataar" alt="Me in a cartoonish way">
+            <h1>Image Gallery</h1>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section id="short-me" class="container">
-        <div class="card">
-          <div class="card-content">
-            <p>
-              Hi! I am a web developer and I love to build websites and web-apps. I am generally a bit shy, honest and confident about my work.
-            </p>
-            <a href="./about.php" class="links colored">Get to know me better<i class="fas fa-arrow-right"></i></a>
+      <div class="container">
+        <section>
+          <div id="tms">
+            <h3>Trust Management System</h3>
+            <div class="imagediv">
+              <a target="_blank" href="./images/screenshots/tms/applicant-applications-status-min.PNG">
+                <img src="./images/screenshots/tms/applicant-applications-status-min.PNG" alt="">
+              </a>
+              <a target="_blank" href="./images/screenshots/tms/applicant-application-receipt-min.PNG">
+                <img src="./images/screenshots/tms/applicant-application-receipt-min.PNG" alt="">
+              </a>
+              <a target="_blank" href="./images/screenshots/tms/trustuser-manage-applicants-min.PNG">
+                <img src="./images/screenshots/tms/trustuser-manage-applicants-min.PNG" alt="">
+              </a>
+              <a target="_blank" href="./images/screenshots/tms/trustuser-manage-applications-min.PNG">
+                <img src="./images/screenshots/tms/trustuser-manage-applications-min.PNG" alt="">
+              </a>
+              <a target="_blank" href="./images/screenshots/tms/trustuser-fd-management-min.PNG">
+                <img src="./images/screenshots/tms/trustuser-fd-management-min.PNG" alt="">
+              </a>
+              <a target="_blank" href="./images/screenshots/tms/trustuser-disbursement-history-min.PNG">
+                <img src="./images/screenshots/tms/trustuser-disbursement-history-min.PNG" alt="">
+              </a>
+            </div>
           </div>
-        </div>
-      </section>
-      <div class="blank-div">
+          <div class="blank-div">
 
-      </div>
-      <section id="my-skills" class="container">
-        <div class="padding-div">
-          <div>
-            <h3>What I can do</h3>
-            <p>
-              As a Full Stack Web Developer I can do pretty much everything from start to end of a project, except testing.
-            </p>
-            <br>
           </div>
-          <div>
-            <h4 class="customh4">Languages I speak:</h4>
-            <div id="skills-maindiv" class="grid-main">
-              <div class="child-items">
-                <p>HTML, CSS, JS, JQuery, Materialize</p>
-                <p class="skills-heading">Front-End</p>
-              </div>
-              <div class="child-items">
-                <p>PHP, Laravel</p>
-                <p class="skills-heading">Back-End</p>
-              </div>
-              <div class="child-items">
-                <p>MySQL, Google Firestore</p>
-                <p class="skills-heading">Databases</p>
-              </div>
+          <div id="insurance-solutions">
+            <h3>Insurance Solutions</h3>
+            <div class="imagediv">
+              <a target="_blank" href="./images/screenshots/insurance-solutions/browse-products-min.PNG">
+                <img src="./images/screenshots/insurance-solutions/browse-products-min.PNG" alt="">
+              </a>
+              <a target="_blank" href="./images/screenshots/insurance-solutions/compare-products-min.PNG">
+                <img src="./images/screenshots/insurance-solutions/compare-products-min.PNG" alt="">
+              </a>
             </div>
           </div>
-        </div>
-      </section>
-      <div class="blank-div">
+          <div class="blank-div">
 
+          </div>
+          <div id="avidgames">
+            <h3>AvidGames</h3>
+            <div class="imagediv">
+              <a target="_blank" href="./images/screenshots/avidgames/home-min.PNG">
+                <img src="./images/screenshots/avidgames/home-min.PNG" alt="">
+              </a>
+              <a target="_blank" href="./images/screenshots/avidgames/image-puzzle-min.PNG">
+                <img src="./images/screenshots/avidgames/image-puzzle-min.PNG" alt="">
+              </a>
+            </div>
+          </div>
+        </section>
       </div>
-      <section id="recent-works" class="container">
-        <div class="padding-div">
-          <div>
-            <h3>Some of my recent works</h3>
-            <p>
-              These are some of my recent works, feel free to ask me anything about them.
-            </p>
-            <br>
-          </div>
-          <div id="works-maindiv" class="grid-main">
-            <div class="work-divs child-items">
-              <div class="work-content">
-                <p><b>AvidGames</b></p>
-                <p>AvidGames is a games website created for the people to have some fun time</p>
-                <p><a href="https://avidgames.site/" class="link active" target="_blank">Go To Site</a></p>
-              </div>
-            </div>
-            <div class="work-divs child-items">
-              <div class="work-content">
-                <p><b>TMS | Allogsec</b></p>
-                <p>TMS is a web-application built for trust organizaitons to help smoothen their workflow</p>
-                <p><a href="#" class="link">Coming Soon</a></p>
-              </div>
-            </div>
-            <div class="work-divs child-items">
-              <div class="work-content">
-                <p><b>Insurance Solutions</b></p>
-                <p>Insurance Solutions is a policy agency known for their remarkable policy services</p>
-                <p><a href="#" class="link">Coming Soon</a></p>
-              </div>
-            </div>
-          </div>
-          <br>
-          <div class="">
-            <a href="./recent-works.php" class="links white">More Details<i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </section>
       <div class="blank-div">
 
       </div>
@@ -138,11 +106,11 @@
       <div class="container">
         <div class="card2">
           <div class="card-content">
-            <h3>Let's meet up!</h3>
+            <h3>Want to work with me?</h3>
             <p style="font-size: 0.95em">
-              Bring your idea with you and we will materialize it into reality, together. It will be fun!
+              Let's start with a short description about your project idea.
             </p>
-            <a href="./contact.php" class="links colored2">Email me<i class="fas fa-arrow-right"></i></a>
+            <a href="./hire-me.php" class="links colored2">Email me<i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
         <div id="footer-content">
@@ -164,9 +132,6 @@
         </div>
       </div>
     </footer>
-    <div id="contact-form">
-
-    </div>
     <script src="./js/index.js" charset="utf-8"></script>
     <script src="https://kit.fontawesome.com/16df088500.js" crossorigin="anonymous"></script>
   </body>

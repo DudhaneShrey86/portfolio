@@ -63,7 +63,7 @@
               </div>
               <div class="">
                 <a href="#" class="links white disabled">Almost Deployed<i class="far fa-clock"></i></a>
-                <a href="" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
+                <a href="./photos.php#tms" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@
               </div>
               <div class="">
                 <a href="#" class="links white disabled">In Development<i class="far fa-clock"></i></a>
-                <a href="" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
+                <a href="./photos.php#insurance-solutions" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@
               </div>
               <div class="">
                 <a href="https://avidgames.site/" target="_blank" class="links white">Visit Site<i class="fas fa-arrow-right"></i></a>
-                <a href="" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
+                <a href="./photos.php#avidgames" class="links white">View Images<i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
           </div>

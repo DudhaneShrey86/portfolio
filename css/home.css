@@ -50,3 +50,8 @@
 .link.active:hover{
   border-color: var(--white-color);
 }
+@media screen and (min-width: 1024px){
+  #introdiv{
+    padding-left: 100px;
+  }
+}

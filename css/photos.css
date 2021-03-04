@@ -1,0 +1,34 @@
+#header-content{
+  min-height: 50vh;
+}
+.imagediv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  grid-gap: 10px;
+}
+.imagediv a{
+  display: inline-block;
+  flex: 1 1 100%;
+}
+.imagediv img{
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid var(--light-shadow);
+  opacity: 0.85;
+  transition: all 0.2s ease;
+}
+.imagediv img:hover{
+  opacity: 1;
+}
+section h3{
+  padding: 15px;
+  border-bottom: 1px solid var(--light-shadow);
+}
+
+@media screen and (min-width: 1024px){
+  .imagediv a{
+    flex: 1 1 45%;
+  }
+}
