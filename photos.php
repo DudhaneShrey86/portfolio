@@ -118,7 +118,7 @@
             <a href="https://t.me/dudhaneshrey86" class="social-links" title="Telegram" target="_blank"><i class="fab fa-telegram-plane"></i></a>
             <a href="https://www.linkedin.com/in/shreyanshu-dudhane-bb20791a0/" title="LinkedIn" class="social-links" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://www.reddit.com/user/DudhaneShrey86" class="social-links" title="Reddit" target="_blank"><i class="fab fa-reddit-alien"></i></a>
-            <a href="https://www.facebook.com/shreyanshu.dudhane" class="social-links" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/DudhaneShrey86" class="social-links" title="Github" target="_blank"><i class="fab fa-github"></i></a>
           </div>
           <div id="endstamp">
             <div class="logodiv">
